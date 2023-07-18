@@ -17,8 +17,8 @@ Before you start, ensure you have Node.js and npm installed in your system.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/iamsean007/user-management-login-register-jwt.git
+   cd user-management-login-register-jwt
    ```
 
 2. **Install the dependencies**:
@@ -33,9 +33,9 @@ Create a .env file in the root of your project. Check out the .env.example file 
 
 4.  **Start the server**:
 
-        ```bash
-        npm start
-        ```
+     ```bash
+     npm start
+     ```
 
     The server will start on the port specified in your .env file (or port 3001 as default).
 
@@ -44,3 +44,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 License
 MIT
+
+Author: 
+Shivam Mahendru
