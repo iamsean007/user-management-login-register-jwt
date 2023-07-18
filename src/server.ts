@@ -208,8 +208,8 @@ const requireAuth = expressjwt({
   algorithms: ['HS256']
 });
 
-app.get('/api/cat',requireAuth, async (req: Request, res: Response) => {
-   const response = await axios.get('https://cataas.com/cat', { responseType:"arraybuffer" })
+app.get('/api/test',requireAuth, async (req: Request, res: Response) => {
+   const response = await axios.get('https://test.com/test', { responseType:"arraybuffer" })
    let raw = Buffer.from(response.data).toString('base64');
    res.send("data:" + response.headers["content-type"] + ";base64,"+raw);
 })
